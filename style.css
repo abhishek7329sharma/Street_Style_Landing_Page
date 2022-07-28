@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+}
+ul {
+  list-style-type: none;
+}
+.container {
+  padding: 50px;
+}
+.navbar-container {
+  justify-content: space-between;
+}
+
+.list {
+  font-family: Orbitron;
+  justify-content: unset;
+  align-items: center;
+  font-size: 25px;
+  margin-top: 11px;
+}
+
+.button-group,
+.list,
+.navbar-container,
+.hero-container {
+  display: flex;
+}
+
+.list-item {
+  padding: 0 20px;
+  display: inline-block;
+  position: relative;
+}
+.list-item:hover::before {
+  font-weight: bold;
+  content: "";
+  position: absolute;
+  width: 45%;
+  bottom: 0;
+  border-bottom: 3px solid #0c0c0e;
+}
+
+.search-icon svg {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+button {
+  background-color: #ffffff;
+  padding: 6px 36px;
+  font-size: 15px;
+  border-radius: 14px;
+  color: #838383;
+}
+
+.button-group {
+  align-items: center;
+}
+.search-icon {
+  margin-right: 14px;
+}
+
+.hero-container {
+  display: flex;
+}
+.hero-container > span > img {
+  position: absolute;
+}
+img[alt~="person-hero-image"] {
+  width: 474px;
+  height: 429px;
+  z-index: 1;
+  bottom: 5px;
+  position: relative;
+  bottom: -54px;
+}
+img[alt~="square-pattern"] {
+  width: 250px;
+  height: 300px;
+  bottom: 75px;
+  left: 322px;
+  z-index: -1;
+}
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  padding-left: 210px;
+}
+.hero-heading {
+  font-family: Orbitron;
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-top: 128px;
+}
+.hero-description {
+  font-size: 18px;
+  text-align: center;
+  font-family: "Poppins";
+  color: #535353;
+  font-size: 15px;
+  padding: 0 61px;
+  margin-bottom: 80px;
+}
+.star {
+  position: absolute;
+  right: 120px;
+  top: 187px;
+}
+
+.globe {
+  position: absolute;
+  left: 816px;
+  top: 151px;
+}
+
+.button-email {
+  font-family: Orbitron;
+}
+.button-join {
+  font-family: Orbitron;
+  padding: 6px 7px;
+}
+button:hover,
+button:hover {
+  background-color: #0b0c0e;
+  color: #ffffff;
+}
+.icons {
+  display: flex;
+  position: relative;
+}
+.hero-container-right > div:nth-child(4) {
+  margin-top: 60px;
+}
+.contact-heading {
+  color: #575757;
+  font-family: "Poppins";
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.icons > span > img {
+  width: 30px;
+  height: 30px;
+  margin: 0 12px;
+}
+.star > img,
+.globe > img {
+  width: 50px;
+  height: 50px;
+}
