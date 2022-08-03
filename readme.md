@@ -12,7 +12,8 @@
 - How to link image
 - Button creation
 - Adding icons and placing side by side
-- Used flex to keep mesh and photo together.
+- Used position to keep mesh structure and photo together.
+
   <br>
 
 ![Street Style Landing Page](./1.png "Street Style Landing Page")
